@@ -15,3 +15,4 @@ jobs:
 
       # Fixed commit SHA
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: docker/build-push-action@6.1.0
