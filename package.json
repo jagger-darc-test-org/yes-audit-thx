@@ -12,6 +12,7 @@
   "packageManager": "pnpm@10.18.3",
   "dependencies": {
     "express": "5.2.1",
-    "left-pad": "git+https://github.com/stevemao/left-pad.git"
+    "left-pad": "git+https://github.com/stevemao/left-pad.git",
+    "ms": "git+https://github.com/vercel/ms.git"
   }
 }
