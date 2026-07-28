@@ -4,10 +4,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Major-only partial semver
       - uses: actions/checkout@v4
 
-      # Fixed semantic version
+      # Fixed semver
       - uses: actions/setup-node@v4.4.0
+
+      # Minor-only partial semver
+      - uses: actions/cache@v6.0
 
       # Fixed commit SHA
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
